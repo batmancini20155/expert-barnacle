@@ -1,0 +1,12 @@
+lets design an app UI. the app is first and foremost a movie information resource for movielovers for viewing technical specs on a film. Here are some pages that are essential for the experience.
+
+-Landing page: This page will be used to show movies currently playing. this will make it easy for users to quickly tap and view the information of a new film. A user tapping on a film should bring them to a new page with all the data.
+-Learn page: This is a page for users who are not fully educated on the various movie theater formats such as IMAX, Dolby, RPX, standard, and the variations of those format products.
+-Template page for a selected film: should include element placeholders for the film poster, synopsis, format guide (more on this later as this will be an app defining feature), and other technical specs, and get tickets button (at the bottom)
+-Settings page: a page for users to switch between dark and light mode
+-AI chatbot support page called "Usher" (in reference to when theaters had ushers)
+
+Other UI elements
+-Search bar: for users to search any film in the database
+
+The app will also have functionality for ticket purchasing, but this is only optional and not a focus of the app.

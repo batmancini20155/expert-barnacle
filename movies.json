@@ -1,0 +1,186 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "Eclipse Horizon",
+      "year": 2022,
+      "genre": ["Sci-Fi", "Thriller"],
+      "rating": 7.8,
+      "runtime_min": 129,
+      "director": "Lena Durand",
+      "cast": ["Ethan Cole", "Maria Russo", "Tobias Grant"],
+      "country": "USA",
+      "language": "English",
+      "plot": "A scientist races against time to prevent an artificial sun from collapsing into a deadly singularity.",
+      "technical": {
+        "aspect_ratio": "2.39:1",
+        "camera": "ARRI Alexa LF",
+        "color": "Color"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Autumn Without Leaves",
+      "year": 2020,
+      "genre": ["Drama", "Romance"],
+      "rating": 8.1,
+      "runtime_min": 114,
+      "director": "Hiroko Tanaka",
+      "cast": ["Kei Watanabe", "Aiko Matsuda"],
+      "country": "Japan",
+      "language": "Japanese",
+      "plot": "Two strangers form a quiet bond during a solitary autumn in Kyoto.",
+      "technical": {
+        "aspect_ratio": "1.85:1",
+        "camera": "Sony Venice",
+        "color": "Color"
+      }
+    },
+    {
+      "id": 3,
+      "title": "The Last Frequency",
+      "year": 2023,
+      "genre": ["Mystery", "Crime", "Sci-Fi"],
+      "rating": 7.5,
+      "runtime_min": 122,
+      "director": "Shane Donovan",
+      "cast": ["Olivia Reed", "Marcus Lorne", "Gail Summers"],
+      "country": "Canada",
+      "language": "English",
+      "plot": "A detective discovers that a string of murders is linked to an experimental radio frequency that manipulates memory.",
+      "technical": {
+        "aspect_ratio": "2.00:1",
+        "camera": "RED Komodo 6K",
+        "color": "Color"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Crimson Tidefall",
+      "year": 2024,
+      "genre": ["Action", "Thriller"],
+      "rating": 7.0,
+      "runtime_min": 136,
+      "director": "David Mahoney",
+      "cast": ["Chris Lang", "Naomi Vega", "Henry Li"],
+      "country": "USA",
+      "language": "English",
+      "plot": "When a rogue navy captain seizes control of a submarine, a tactical team races to prevent global catastrophe.",
+      "technical": {
+        "aspect_ratio": "2.35:1",
+        "camera": "Panavision Millennium DXL2",
+        "color": "Color"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Midnight Harvest",
+      "year": 2019,
+      "genre": ["Horror", "Mystery"],
+      "rating": 6.9,
+      "runtime_min": 101,
+      "director": "Riley Monroe",
+      "cast": ["Lucy Hale", "Gabe Moreno"],
+      "country": "UK",
+      "language": "English",
+      "plot": "A rural town hides a dark ritual that recurs every harvest moon.",
+      "technical": {
+        "aspect_ratio": "1.78:1",
+        "camera": "Blackmagic URSA Mini Pro 4.6K",
+        "color": "Color"
+      }
+    },
+
+    {
+      "id": 6,
+      "title": "Frozen Rebellion",
+      "year": 2021,
+      "genre": ["Adventure", "Drama"],
+      "rating": 7.4,
+      "runtime_min": 118,
+      "director": "Artem Volkov",
+      "cast": ["Natalia Petrova", "Mikhail Ivanov"],
+      "country": "Russia",
+      "language": "Russian",
+      "plot": "Amid an arctic war zone, a deserter must protect a child while facing his own past.",
+      "technical": {
+        "aspect_ratio": "2.00:1",
+        "camera": "RED Helium 8K",
+        "color": "Color"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Beyond the Clouds",
+      "year": 2022,
+      "genre": ["Romance", "Fantasy"],
+      "rating": 8.3,
+      "runtime_min": 112,
+      "director": "Celeste Nguyen",
+      "cast": ["Bao Tran", "Jenna Park"],
+      "country": "South Korea",
+      "language": "Korean",
+      "plot": "A pilot and an artist fall in love as they navigate between dreams and reality in a city above the clouds.",
+      "technical": {
+        "aspect_ratio": "1.90:1",
+        "camera": "Canon C700 FF",
+        "color": "Color"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Iron Pulse",
+      "year": 2023,
+      "genre": ["Science Fiction", "Action"],
+      "rating": 7.9,
+      "runtime_min": 124,
+      "director": "Michael Trent",
+      "cast": ["Laura West", "Dylan Cruz", "Isaac Morales"],
+      "country": "USA",
+      "language": "English",
+      "plot": "A cyborg soldier rebels against a military AI after discovering suppressed human emotions.",
+      "technical": {
+        "aspect_ratio": "2.39:1",
+        "camera": "ARRI Alexa Mini LF",
+        "color": "Color"
+      }
+    },
+    {
+      "id": 9,
+      "title": "Blue Orchard",
+      "year": 2018,
+      "genre": ["Drama"],
+      "rating": 6.8,
+      "runtime_min": 105,
+      "director": "Sofia Mendes",
+      "cast": ["Isabella Cruz", "Marcus Diaz"],
+      "country": "Spain",
+      "language": "Spanish",
+      "plot": "A widowed horticulturist struggles to revive her family orchard while reconnecting with her estranged son.",
+      "technical": {
+        "aspect_ratio": "1.85:1",
+        "camera": "Sony FX9",
+        "color": "Color"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Orbit Line",
+      "year": 2024,
+      "genre": ["Sci-Fi", "Adventure"],
+      "rating": 8.0,
+      "runtime_min": 130,
+      "director": "Kira Patel",
+      "cast": ["Tom Bennett", "Aisha Noor"],
+      "country": "UK",
+      "language": "English",
+      "plot": "An astronaut stranded between Earth and Mars fights isolation—and a mysterious voice over the comms.",
+      "technical": {
+        "aspect_ratio": "2.20:1",
+        "camera": "ARRI Alexa 65",
+        "color": "Color"
+      }
+    }
+    // ... (Continue pattern up to 50 entries)
+  ]
+}
