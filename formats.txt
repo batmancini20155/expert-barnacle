@@ -1,0 +1,63 @@
+35mm Standard Formats (Academy to Scope)
+Academy (1932): 1.37:1, 4-perf vertical, optical sound—Hollywood standard until 1950s.
+Academy Scope: 1.85:1 flat, 4-perf—current 2D standard.
+CinemaScope: 2.35:1/2.39:1, 4-perf + 2x anamorphic squeeze, 4-track mag sound.
+Todd-AO: 35mm 4-perf vertical (2.2:1) or 70mm 5-perf (2.21:1).
+Panavision: 2.39:1 anamorphic lenses on 35mm 4-perf base.
+Techniscope: 2-perf horizontal 35mm (2:1 raw), printed to 35mm 4-perf anamorphic.
+VistaVision: 8-perf horizontal 35mm negative, printed to 35mm 4-perf vertical (1.85-2.0:1).
+​
+
+65mm/70mm Formats
+Todd-AO (1955): 5-perf 70mm print from 65mm negative, 2.2:1.
+Ultra Panavision 70: 65mm 8-perf horizontal negative, 70mm 5-perf print (2.76:1 smilebox).
+Super Panavision 70: 65mm 5-perf vertical, 70mm 5-perf print (2.2:1).
+IMAX 15/70: 15-perf horizontal 65mm negative, 70mm 15-perf vertical print (1.43:1, 1.90:1 digital).
+Grandeur 70: 55/70mm, 2.5:1 anamorphic (1960s roadshow).
+
+
+Multi-Projector Widescreen (1950s Golden Age)
+Cinerama (1952): 3x 35mm 5-perf projectors, 146° curved screen, 7-track mag sound.
+Cinemiracle: 3x 35mm with mirrored prisms, 120° curve.
+Circarama/Circle-Vision 360: 9x 16mm projectors in circle (Disney theme parks).
+Vitarama: 11x 16mm for 360° immersive.
+Thrillarama: Dual 35mm projectors, 3.55:1 curved screen.
+
+
+IMAX and Giant Screen Variants
+Format - Negative/Print - Aspect Ratio - Notable Features
+IMAX 15/70 - 65mm 15-perf horiz/70mm 15-perf vert - 1.43:1 - Single reel up to 3hrs, original rocking-chair giant screen.
+IMAX with Laser (IWER) - Dual 4K laser - 1.90:1 - 120-160fps capable.
+IMAX 3D Laser - Dual 4K laser + polarized glasses - 1.90:1 - Dual projectors for 3D.
+IMAX Xenon - 2K/4K xenon digital - 1.90:1/1.43:1 - Digital retrofit of 70mm houses.
+LieMAX - Digital (non-spec) - Varies - Theaters violating IMAX standards
+IMAX Dome/Omnimax - 15/70 on fisheye lens - Hemisphere - Planetariums, tilted domes.
+
+
+Digital Projection Technologies
+2K DCI (2048x1080): Standard digital cinema baseline.
+4K DCI (4096x2160): High-end digital standard.
+Dolby Vision Cinema: Laser phosphor, dynamic HDR metadata (500-4000 nits).[prior context]
+Barco DP4K series: 4K laser projectors.
+Christie CP4420: Dual xenon/4K laser hybrids.
+Sony SRX-R815P: 4K SXRD, used for premium digital.
+
+
+Premium Large Format (PLF) Proprietary Gimmicks
+AMC PRIME: Dual 4K laser, Dolby Atmos, 40% larger screen.[prior context]
+Regal RPX: Recessed premium eXperience—4K laser, reserved seating, extended low-freq sound.
+Cinemark XD: Proprietary 4K LED backlight projector + custom sound.
+Dolby Cinema: Dual 4K laser + Dolby Atmos + custom auditorium design.
+ScreenX: 270° screen extension (21:9 side panels).
+4DX: Motion seats + wind/water/scent effects.
+MX4D: Similar to 4DX, proprietary motion platform.
+
+
+Vintage/Obscure Formats (Still Relevant for Archives)
+Kinetoscope (1890s): Peepshow 35mm loop.
+Magnascope (1926): 35mm with sudden lens switch to full-frame for dramatic scenes.
+Natural Vision (1927): 63mm wide film.
+Realife (1930): Dual 35/70mm variable aspect.
+Arnoldscope (1953): 35mm 10-perf horizontal.
+Kodel Kemco Homovie (1931): 16mm sequential frames.
+Soviet 70 (10-perf): 65/70mm 10-perf horizontal widescreen.
