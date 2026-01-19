@@ -6,6 +6,8 @@ import '../config/api_config.dart';
 import '../widgets/synopsis_card.dart';
 import '../widgets/more_info_card.dart';
 import '../services/saved_movies_service.dart';
+import '../widgets/main_navigation.dart';
+import '../main.dart';
 
 class MovieDetailPage extends StatefulWidget {
   final Movie movie;
@@ -67,12 +69,56 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
     _savedMoviesService.toggleSave(widget.movie);
   }
 
+  Widget _buildBottomNavigationBar(BuildContext context) {
+    // Default to Movies index (0) since this page is typically accessed from Movies
+    int currentIndex = 0;
+    
+    return BottomNavigationBar(
+      type: BottomNavigationBarType.fixed,
+      currentIndex: currentIndex,
+      onTap: (index) {
+        // Pop to root and switch to the selected tab
+        Navigator.of(context).popUntil((route) => route.isFirst);
+        // Find MainNavigation and switch tab
+        if (navigatorKey.currentContext != null) {
+          final mainNavState = MainNavigation.of(navigatorKey.currentContext!);
+          if (mainNavState != null) {
+            mainNavState.switchToTab(index);
+          }
+        }
+      },
+      items: const [
+        BottomNavigationBarItem(
+          icon: Icon(Icons.movie),
+          label: 'Movies',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.bookmark),
+          label: 'Saved',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.confirmation_number),
+          label: 'Tickets',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.menu_book),
+          label: 'Guide',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.settings),
+          label: 'Settings',
+        ),
+      ],
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final screenHeight = MediaQuery.of(context).size.height;
     final heroHeight = screenHeight * 0.3;
 
     return Scaffold(
+      bottomNavigationBar: _buildBottomNavigationBar(context),
       body: CustomScrollView(
         slivers: [
           // Hero banner with movie name

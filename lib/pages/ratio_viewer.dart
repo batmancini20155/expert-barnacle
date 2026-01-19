@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../widgets/main_navigation.dart';
+import '../main.dart';
 
 void main() {
   runApp(const MyApp());
@@ -216,9 +218,53 @@ class _AspectRatioViewerState extends State<AspectRatioViewer> {
     }
   }
 
+  Widget _buildBottomNavigationBar(BuildContext context) {
+    // Default to Guide index since this page is accessed from Guide
+    int currentIndex = 3;
+    
+    return BottomNavigationBar(
+      type: BottomNavigationBarType.fixed,
+      currentIndex: currentIndex,
+      onTap: (index) {
+        // Pop to root and switch to the selected tab
+        Navigator.of(context).popUntil((route) => route.isFirst);
+        // Find MainNavigation and switch tab
+        if (navigatorKey.currentContext != null) {
+          final mainNavState = MainNavigation.of(navigatorKey.currentContext!);
+          if (mainNavState != null) {
+            mainNavState.switchToTab(index);
+          }
+        }
+      },
+      items: const [
+        BottomNavigationBarItem(
+          icon: Icon(Icons.movie),
+          label: 'Movies',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.bookmark),
+          label: 'Saved',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.confirmation_number),
+          label: 'Tickets',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.menu_book),
+          label: 'Guide',
+        ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.settings),
+          label: 'Settings',
+        ),
+      ],
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: _buildBottomNavigationBar(context),
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(

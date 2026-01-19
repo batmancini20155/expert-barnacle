@@ -11,10 +11,20 @@ class MainNavigation extends StatefulWidget {
 
   @override
   State<MainNavigation> createState() => _MainNavigationState();
+
+  static _MainNavigationState? of(BuildContext context) {
+    return context.findAncestorStateOfType<_MainNavigationState>();
+  }
 }
 
 class _MainNavigationState extends State<MainNavigation> {
   int _currentIndex = 0;
+
+  void switchToTab(int index) {
+    setState(() {
+      _currentIndex = index;
+    });
+  }
 
   final List<Widget> _pages = [
     const MoviesPage(),
