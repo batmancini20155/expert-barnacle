@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'ratio_viewer.dart';
+import 'search_test.dart';
 
 class GuidePage extends StatelessWidget {
   const GuidePage({super.key});
@@ -50,6 +51,21 @@ class GuidePage extends StatelessWidget {
                       context,
                       MaterialPageRoute(
                         builder: (context) => const AspectRatioViewer(),
+                      ),
+                    );
+                  },
+                ),
+                const SizedBox(height: 16),
+                _buildGuideButton(
+                  context: context,
+                  title: 'Search Test',
+                  description: 'Search millions of movies from TMDB using the Movie Finder',
+                  icon: Icons.search,
+                  onTap: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => const MovieSearchPage(),
                       ),
                     );
                   },
