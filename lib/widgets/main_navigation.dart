@@ -3,6 +3,7 @@ import '../pages/movies_page.dart';
 import '../pages/saved_page.dart';
 import '../pages/tickets_page.dart';
 import '../pages/settings_page.dart';
+import '../pages/guide_page.dart';
 import 'app_header.dart';
 
 class MainNavigation extends StatefulWidget {
@@ -19,6 +20,7 @@ class _MainNavigationState extends State<MainNavigation> {
     const MoviesPage(),
     const SavedPage(),
     const TicketsPage(),
+    const GuidePage(),
     const SettingsPage(),
   ];
 
@@ -31,6 +33,8 @@ class _MainNavigationState extends State<MainNavigation> {
       case 2:
         return 'Tickets';
       case 3:
+        return 'Guide';
+      case 4:
         return 'Settings';
       default:
         return 'Movie App';
@@ -67,6 +71,10 @@ class _MainNavigationState extends State<MainNavigation> {
           BottomNavigationBarItem(
             icon: Icon(Icons.confirmation_number),
             label: 'Tickets',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.menu_book),
+            label: 'Guide',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.settings),
